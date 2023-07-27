@@ -1,0 +1,68 @@
+/*
+befehl ürs terminal
+sass --watch ./assets/scss:./assets/css
+*/
+@use "./reset";
+@use "./_globalsettings";
+@use "./variables";
+.back_video{
+    position: absolute;
+    height: 200vh;
+    width: auto;  
+    z-index: -1;
+}
+.weatherinfobox{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    .watherdetails{
+    margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        div{
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            display: flex;
+            justify-content: space-between;
+            p{
+                width: 50%;
+                border-right:1px solid rgba(255, 255, 255, 0.5);
+                padding-left: 5px;
+            }
+        }
+    }
+}
+.inputbox{
+    width: 50%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    input{
+        background-color: transparent;
+        color: #fff;
+        border:none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+        margin-top: 10px;
+    }
+    ::placeholder{
+        color: #fff;
+    }
+    button{
+        border: none;
+        padding: 5px 10px;
+        margin-top: 10px;
+        background-color: transparent;
+        color: #fff;
+        border:1px solid #fff;
+        border-radius: 20px;
+    }
+    div{
+        width:fit-content;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
