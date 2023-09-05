@@ -16,13 +16,6 @@ Dies ist eine einfache Wetter-App, geschrieben in vanilla JavaScript. Für das S
 - OpenWeatherMap API für Wetterdaten
 - LocalStorage zur Speicherung der letzten Suche
 
-## Setup
-
-1. Repository clonen
-2. Abhängigkeiten installieren mit `npm install` 
-3. API Key bei OpenWeatherMap anfordern
-4. API Key in `.env` Datei einfügen 
-5. Mit `npm start` die App starten
 
 ## Verwendung
 
