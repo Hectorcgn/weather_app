@@ -1,5 +1,3 @@
-Hier ein Vorschlag für eine README.md Datei für eine Wetter-App in vanilla JavaScript mit SCSS/CSS für das Styling:
-
 # Wetter-App
 
 Dies ist eine einfache Wetter-App, geschrieben in vanilla JavaScript. Für das Styling kommt SCSS/CSS zum Einsatz.
